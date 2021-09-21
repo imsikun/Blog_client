@@ -1,9 +1,14 @@
+import Post from '../post/Post'
 import './posts.css'
 
-export default function () {
+export default function Posts () {
   return (
     <div className='posts'>
-        <h3>post</h3>
+      <Post />
+      <Post />
+      <Post />
+      <Post />
+      <Post />
     </div>
   )
 }
