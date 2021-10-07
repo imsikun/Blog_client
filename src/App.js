@@ -18,7 +18,7 @@ import Contact from './pages/Contact/Contact';
 function App () {
 
 // sudo user to check the register
-const user = false
+const user = true
 
   return (
     <Router>
