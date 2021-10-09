@@ -3,8 +3,7 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
-} from "react-router-dom";
+  } from "react-router-dom";
 import TopBar from './components/topbar/TopBar'
 import Register from './pages/Register/Register'
 import Login from './pages/Login/Login'
@@ -18,7 +17,7 @@ import Contact from './pages/Contact/Contact';
 function App () {
 
 // sudo user to check the register
-const user = true
+const user = false
 
   return (
     <Router>
